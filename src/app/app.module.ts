@@ -6,13 +6,15 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
-import{RouterModule} from '@angular/router'
+import{RouterModule} from '@angular/router';
+import { MenuComponent } from './components/menu/menu.component'
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
